@@ -1,0 +1,184 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:san 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+  }
+.navbar{
+    position: absolute;
+    left: 20.83%;
+    right: 20.83%;
+    top: 12.5%;
+    bottom: 12.5%;
+    background-color: #fff;
+}
+.navbar .leftmenu {
+    float:left;
+}
+.navbar .leftmenu li{
+    list-style : none;
+    display:inline-block;
+}
+.navbar .leftmenu .menu .fa{
+    padding-top: 8px;
+}
+.navbar .leftmenu .menu .dropdown{
+    display:block;
+}
+.navbar .leftmenu .menu .dropdown li{
+    display:block;
+}
+.navbar .leftmenu .menu .dropdown li a{
+    display:none;
+    text-decoration: none;
+}
+
+.navbar .leftmenu .menu .dropdown li a:hover{
+    display:block;
+    color:black;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), #ADAFB8;
+    box-shadow:inset 0px 0px 5px;
+}
+.navbar .leftmenu .menu:hover {
+    background: rgb(201, 193, 182);
+}
+.navbar .leftmenu .menu:hover .dropdown li{ 
+    display:block;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), #ADAFB8;
+    position:absolute;
+    padding:10px;
+}
+.navbar .leftmenu .title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 0px 16px;
+}
+.navbar .leftmenu .runall .runallbtn{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), #ADAFB8;
+    border-radius: 30px;
+    color: #FAFBFE;
+    padding: 8px 16px;
+
+}
+
+/*
+.navbar .leftmenu li a{
+    display:block;
+    text-decoration: none;
+    margin-top:10px;
+}
+
+
+
+
+.navbar .leftmenu .menu .fa{
+    padding-top: 8px;
+
+}
+.navbar .leftmenu li
+
+/*
+.navbar .leftmenu li .dropmenu{
+    display : block;
+    position: relative;
+    width: 190px;
+    height: 336px;
+    top: 50px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), #ADAFB8;
+    /* Black Color/Tint 3
+    border: 1px solid rgba(4, 12, 47, 0.1);
+    box-sizing: border-box;
+}
+ 
+
+.navbar .leftmenu ul li {
+    list-style : none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+.navbar .leftmenu ul li a .title{
+    position : relative;
+    min-width: 190px;
+    height: 55px;
+    line-height: 6px;
+    text-align: : start;
+    white-space:nowrap;
+    color: #000000;
+    font-size: 16px;
+    font-weight:normal;
+}
+
+
+/* Change color of dropdown links on hover 
+.navbar .leftmenu ul li a .title:hover {
+    background-color: #ddd;
+    width :100%
+}
+
+.navbar .leftmenu .menu:hover{
+    background-color: #ddd
+}
+
+/* Show the dropdown menu on hover
+.navbar .leftmenu .menu :hover .navbar .leftmenu .dropdown li{
+    display: block;
+    padding:10px;
+    position:absolute;
+
+}
+*/
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.navbar .rightmenu{
+    float:right;
+}
+
+.navbar .rightmenu .sharebtn{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), #ADAFB8;
+    border-radius: 30px;
+    color: #FAFBFE;
+    padding: 8px 16px;
+    
+}
+
+.navbar .rightmenu .info{
+    margin: 0px 12px;
+}
+
+.navbar .rightmenu ul{
+    list-style : none;
+    text-decoration: none;
+    position: absolute;
+    width: 170px;
+    height: 112px;
+    float:left;
+    top: 40px;
+    /* Grey/Tint 3 */
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), #ADAFB8;
+    /* Black Color/Tint 3 */
+    border: 1px solid rgba(4, 12, 47, 0.1);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.navbar .rightmenu ul li a{
+    text-decoration: none;
+}
+
+.navbar .rightmenu ul li a .title{
+    text-decoration: none;
+    margin-left: 20px;
+    list-style : none;
+    position : relative;
+    display : block;
+    min-width: 60px;
+    height: 55px;
+    line-height: 60px;
+    text-align: : start;
+    white-space:nowrap;
+    color: #000000;
+    font-size: 16px;
+    font-weight:normal;
+}
