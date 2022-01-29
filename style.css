@@ -7,8 +7,8 @@
   }
 .navbar{
     position: absolute;
-    left: 20.83%;
-    right: 20.83%;
+    left: 10%;
+    right: 10%;
     top: 12.5%;
     bottom: 12.5%;
     background-color: #fff;
@@ -43,7 +43,7 @@
 .navbar .leftmenu .menu:hover {
     background: rgb(201, 193, 182);
 }
-.navbar .leftmenu .menu:hover .dropdown li{ 
+.navbar .leftmenu .menu:hover .navbar .leftmenu .menu .dropdown{ 
     display:block;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), #ADAFB8;
     position:absolute;
@@ -55,12 +55,12 @@
     line-height: 32px;
     margin: 0px 16px;
 }
+
 .navbar .leftmenu .runall .runallbtn{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), #ADAFB8;
     border-radius: 30px;
     color: #FAFBFE;
     padding: 8px 16px;
-
 }
 
 /*
@@ -69,9 +69,6 @@
     text-decoration: none;
     margin-top:10px;
 }
-
-
-
 
 .navbar .leftmenu .menu .fa{
     padding-top: 8px;
